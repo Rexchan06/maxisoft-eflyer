@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="color-scheme" content="light">
+<meta name="supported-color-schemes" content="light">
+<title>Maxisoft ERP — One System For Your Whole Business</title>
+<!--[if mso]>
+<noscript>
+<xml>
+<o:OfficeDocumentSettings>
+<o:PixelsPerInch>96</o:PixelsPerInch>
+</o:OfficeDocumentSettings>
+</xml>
+</noscript>
+<style>
+table {border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;}
+td,th,div,p,a,h1,h2,h3 {font-family: Arial, sans-serif;}
+</style>
+<![endif]-->
+<style>
+  /* Client resets */
+  body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+  table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+  img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; display: block; }
+  body { margin: 0; padding: 0; width: 100% !important; height: 100% !important; background-color: #EEF1F6; }
+  a { text-decoration: none; }
+
+  .maxw { max-width: 600px; }
+
+  /* ===== Mobile ===== */
+  @media only screen and (max-width: 620px) {
+    .email-container { width: 100% !important; }
+    .fluid { width: 100% !important; max-width: 100% !important; height: auto !important; }
+    .stack { display: block !important; width: 100% !important; }
+    .stack-cell { display: block !important; width: 100% !important; box-sizing: border-box; }
+    .pad-mobile { padding-left: 20px !important; padding-right: 20px !important; }
+    .h1 { font-size: 26px !important; line-height: 32px !important; }
+    .h2 { font-size: 20px !important; line-height: 26px !important; }
+    .card-pad { padding: 20px !important; }
+    .btn-mobile { width: 100% !important; box-sizing: border-box; }
+    .stat-cell { display: block !important; width: 100% !important; padding-bottom: 16px !important; }
+    .stat-border { border-left: none !important; border-right: none !important; border-top: 1px solid #EDF0F5 !important; border-bottom: 1px solid #EDF0F5 !important; padding-top: 14px !important; padding-bottom: 14px !important; }
+    .hide-mobile { display: none !important; width: 0 !important; height: 0 !important; font-size: 0 !important; line-height: 0 !important; overflow: hidden !important; }
+  }
+
+  /* ===== Force light mode and Dark Mode Overrides ===== */
+  @media (prefers-color-scheme: dark) {
+    .bg-page { background-color: #EEF1F6 !important; }
+    .bg-white { background-color: #FFFFFF !important; }
+    .bg-light { background-color: #F6F8FC !important; }
+    .bg-navy { background-color: #12213A !important; }
+    .bg-tint { background-color: #EAF1FF !important; }
+    .txt-navy { color: #12213A !important; }
+    .txt-body { color: #5B667A !important; }
+    .txt-white { color: #FFFFFF !important; }
+    .txt-muted { color: #8891A3 !important; }
+    /* Button Dark Mode Fixes */
+    .btn-primary { background-color: #2F6FED !important; color: #FFFFFF !important; }
+    .btn-whatsapp { background-color: #25D366 !important; color: #FFFFFF !important; }
+  }
+  
+  [data-ogsc] .bg-page, [data-ogsb] .bg-page { background-color: #EEF1F6 !important; }
+  [data-ogsc] .bg-white, [data-ogsb] .bg-white { background-color: #FFFFFF !important; }
+  [data-ogsc] .bg-light, [data-ogsb] .bg-light { background-color: #F6F8FC !important; }
+  [data-ogsc] .bg-navy, [data-ogsb] .bg-navy { background-color: #12213A !important; }
+  [data-ogsc] .bg-tint, [data-ogsb] .bg-tint { background-color: #EAF1FF !important; }
+  [data-ogsc] .txt-navy, [data-ogsb] .txt-navy { color: #12213A !important; }
+  [data-ogsc] .txt-body, [data-ogsb] .txt-body { color: #5B667A !important; }
+
+  @media (prefers-color-scheme: dark) {
+    [style*="color:#12213A"] { color: #12213A !important; }
+    [style*="color:#5B667A"] { color: #5B667A !important; }
+    [style*="color:#3A4256"] { color: #3A4256 !important; }
+    [style*="color:#8891A3"] { color: #8891A3 !important; }
+    [style*="color:#FFFFFF"] { color: #FFFFFF !important; }
+    [style*="background-color:#FFFFFF"] { background-color: #FFFFFF !important; }
+    [style*="background-color:#F6F8FC"] { background-color: #F6F8FC !important; }
+    [style*="background-color:#12213A"] { background-color: #12213A !important; }
+    [style*="background-color:#EEF1F6"] { background-color: #EEF1F6 !important; }
+    [style*="background-color:#EAF1FF"] { background-color: #EAF1FF !important; }
+    [style*="background-color:#EAFBF1"] { background-color: #EAFBF1 !important; }
+    [style*="background-color:#FFF3E0"] { background-color: #FFF3E0 !important; }
+    [style*="background-color:#F3EBFF"] { background-color: #F3EBFF !important; }
+  }
+</style>
+</head>
+<body style="margin:0; padding:0; background-color:#EEF1F6; word-break:break-word;">
+
+  <!-- Preheader -->
+  <div style="display:none; max-height:0; overflow:hidden; mso-hide:all; font-size:1px; line-height:1px; color:#EEF1F6;">
+    {% if contact.COMPANY %}See how {{ contact.COMPANY }} could run sales, inventory and accounts on one system.{% else %}One login. Sales, inventory, accounting and reporting — all working together.{% endif %}
+    &#8203;&#847; &#8203;&#847; &#8203;&#847; &#8203;&#847; &#8203;&#847; &#8203;&#847; &#8203;&#847; &#8203;&#847; &#8203;&#847; &#8203;&#847; &#8203;&#847; &#8203;&#847; &#8203;&#847;
+  </div>
+
+  <center class="bg-page" style="width:100%; background-color:#EEF1F6;">
+  <!--[if mso]>
+  <table role="presentation" width="600" align="center" cellpadding="0" cellspacing="0" border="0"><tr><td>
+  <![endif]-->
+
+  <div class="email-container" style="max-width:600px; margin:0 auto;">
+
+    <!-- ============ VIEW IN BROWSER ============ -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td align="center" style="padding:14px 20px 0 20px;">
+          <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:11px; color:#9AA3B5;">Trouble viewing this email? <a href="{{ mirror }}" target="_blank" style="color:#5B667A; text-decoration:underline;">View it in your browser</a></p>
+        </td>
+      </tr>
+    </table>
+
+    <!-- ============ HEADER ============ -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td align="center" style="padding:16px 20px 16px 20px;">
+          <table role="presentation" cellpadding="0" cellspacing="0" border="0" class="bg-white" style="background-color:#FFFFFF; border-radius:12px;">
+            <tr>
+              <td style="padding:14px 22px;">
+                <img src="https://img.mailinblue.com/11929687/images/content_library/original/6a85bffdef871da2865f70ec.png" alt="Maxisoft ERP" width="150" height="64" style="display:block; width:150px; max-width:150px; height:auto;">
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <!-- ============ HERO ============ -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="bg-white" style="background-color:#FFFFFF; border-radius:16px 16px 0 0;">
+      <tr>
+        <td class="pad-mobile" align="center" style="padding:36px 48px 24px 48px; text-align:center;">
+          <p style="margin:0 0 14px 0; font-family:Arial,Helvetica,sans-serif; font-size:14px; color:#5B667A;">{% if contact.FIRSTNAME %}Hi {{ contact.FIRSTNAME }},{% else %}Hi there,{% endif %}</p>
+          <p style="margin:0 0 12px 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:700; letter-spacing:1.5px; text-transform:uppercase; color:#2F6FED;">All-In-One Business ERP</p>
+          <h1 class="h1" style="margin:0 0 16px 0; font-family:Arial,Helvetica,sans-serif; font-size:28px; line-height:36px; font-weight:700; color:#12213A;">{% if contact.COMPANY %}A faster, simpler ERP for {{ contact.COMPANY }}{% else %}Stop re-typing the same sale three times{% endif %}</h1>
+          <p style="margin:0 0 28px 0; font-family:Arial,Helvetica,sans-serif; font-size:16px; line-height:24px; color:#5B667A;">Sales, inventory, accounting and reporting share one database — so the number your finance team sees is the same one your warehouse sees, in real time.</p>
+
+          <!-- Bulletproof CTA button -->
+          <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+              <td align="center" style="border-radius:8px; background-color:#2F6FED;">
+                <!--[if mso]>
+                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.maxisoft.com.my/demo?utm_source=email&utm_medium=eflyer&utm_campaign=erp2026&utm_content=hero_cta" style="height:50px;v-text-anchor:middle;width:260px;" arcsize="14%" stroke="f" fillcolor="#2F6FED">
+                <w:anchorlock/>
+                <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;">Book Your Free Demo &rarr;</center>
+                </v:roundrect>
+                <![endif]-->
+                <!--[if !mso]><!-->
+                <a href="https://www.maxisoft.com.my/demo?utm_source=email&utm_medium=eflyer&utm_campaign=erp2026&utm_content=hero_cta" target="_blank" class="btn-primary btn-mobile" style="display:inline-block; padding:15px 32px; font-family:Arial,Helvetica,sans-serif; font-size:16px; font-weight:700; color:#FFFFFF; text-decoration:none; border-radius:8px;">Book Your Free Demo &rarr;</a>
+                <!--<![endif]-->
+              </td>
+            </tr>
+          </table>
+          <p style="margin:14px 0 22px 0; font-family:Arial,Helvetica,sans-serif; font-size:13px; color:#8891A3;">No obligation &middot; bring your real numbers &middot; Malaysia-based team</p>
+          <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:12px; line-height:18px; color:#AEB8CC;">Trusted across General Trading, FMCG &amp; Distribution, Retail, Manufacturing, Pharmaceuticals &amp; more</p>
+        </td>
+      </tr>
+    </table>
+
+    <!-- ============ TRUST STATS ============ -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="bg-white" style="background-color:#FFFFFF;">
+      <tr>
+        <td class="pad-mobile" align="center" style="padding:0 48px 40px 48px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+              <td class="stack-cell" width="168" align="center" style="text-align:center; padding:14px 6px;">
+                <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:22px; font-weight:700; color:#12213A;">300+</p>
+                <p style="margin:2px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#8891A3;">Businesses served</p>
+              </td>
+              <td class="stack-cell stat-border" width="168" align="center" style="text-align:center; padding:14px 6px; border-left:1px solid #EDF0F5; border-right:1px solid #EDF0F5;">
+                <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:22px; font-weight:700; color:#12213A;">99.9%</p>
+                <p style="margin:2px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#8891A3;">System uptime</p>
+              </td>
+              <td class="stack-cell" width="168" align="center" style="text-align:center; padding:14px 6px;">
+                <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:22px; font-weight:700; color:#12213A;">15+ yrs</p>
+                <p style="margin:2px 0 0 0; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#8891A3;">Local support team</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <!-- ============ MODULES INTRO ============ -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="bg-light" style="background-color:#F6F8FC;">
+      <tr>
+        <td class="pad-mobile" style="padding:40px 48px 16px 48px;">
+          <h2 class="h2" style="margin:0 0 8px 0; font-family:Arial,Helvetica,sans-serif; font-size:22px; line-height:28px; font-weight:700; color:#12213A; text-align:center;">Everything your business needs, working as one</h2>
+          <p style="margin:0 0 16px 0; font-family:Arial,Helvetica,sans-serif; font-size:15px; line-height:22px; color:#5B667A; text-align:center;">Four connected modules. One shared database. No more exporting spreadsheets between departments.</p>
+        </td>
+      </tr>
+    </table>
+
+    <!-- ============ MODULE CARDS ============ -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="bg-light" style="background-color:#F6F8FC;">
+      <tr>
+        <td class="pad-mobile" align="center" style="padding:0 32px 8px 32px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+            
+            <!-- ROW 1 -->
+            <tr class="stack">
+              <!-- Card 1 -->
+              <td class="stack-cell" width="260" valign="top" style="padding-bottom:16px;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="bg-white" style="background-color:#FFFFFF; border-radius:14px;">
+                  <tr>
+                    <td class="card-pad" style="padding:24px;">
+                      <!-- NEW FLAT IMAGE BLOCK -->
+                      <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                        <td width="48" height="48" align="center" valign="middle">
+                          <img src="https://img.mailinblue.com/11929687/images/content_library/original/6a868bf129aad9e22bdb448f.png" width="48" height="48" alt="Sales & eCommerce" style="display:block; border:0;">
+                        </td>
+                      </tr></table>
+                      <p style="margin:16px 0 6px 0; font-family:Arial,Helvetica,sans-serif; font-size:16px; font-weight:700; color:#12213A;">Sales &amp; eCommerce</p>
+                      <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:20px; color:#5B667A;">Shopee, Lazada, POS and order management synced automatically — no manual re-keying.</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              
+              <!-- Spacer Column -->
+              <td class="hide-mobile" width="16" style="font-size:1px; line-height:1px;">&nbsp;</td>
+              
+              <!-- Card 2 -->
+              <td class="stack-cell" width="260" valign="top" style="padding-bottom:16px;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="bg-white" style="background-color:#FFFFFF; border-radius:14px;">
+                  <tr>
+                    <td class="card-pad" style="padding:24px;">
+                      <!-- NEW FLAT IMAGE BLOCK -->
+                      <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                        <td width="48" height="48" align="center" valign="middle">
+                          <img src="https://img.mailinblue.com/11929687/images/content_library/original/6a868cd1e5f747179058db5d.png" width="48" height="48" alt="Finance & Accounting" style="display:block; border:0;">
+                        </td>
+                      </tr></table>
+                      <p style="margin:16px 0 6px 0; font-family:Arial,Helvetica,sans-serif; font-size:16px; font-weight:700; color:#12213A;">Finance &amp; Accounting</p>
+                      <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:20px; color:#5B667A;">General ledger, debtors, creditors, cash flow and e-Invoice — always audit-ready.</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- ROW 2 -->
+            <tr class="stack">
+              <!-- Card 3 -->
+              <td class="stack-cell" width="260" valign="top" style="padding-bottom:16px;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="bg-white" style="background-color:#FFFFFF; border-radius:14px;">
+                  <tr>
+                    <td class="card-pad" style="padding:24px;">
+                      <!-- NEW FLAT IMAGE BLOCK -->
+                      <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                        <td width="48" height="48" align="center" valign="middle">
+                          <img src="https://img.mailinblue.com/11929687/images/content_library/original/6a868d24e5f747179058db63.png" width="48" height="48" alt="Inventory & Warehouse" style="display:block; border:0;">
+                        </td>
+                      </tr></table>
+                      <p style="margin:16px 0 6px 0; font-family:Arial,Helvetica,sans-serif; font-size:16px; font-weight:700; color:#12213A;">Inventory &amp; Warehouse</p>
+                      <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:20px; color:#5B667A;">Real-time stock levels, purchasing and multi-warehouse control from one screen.</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+              
+              <!-- Spacer Column -->
+              <td class="hide-mobile" width="16" style="font-size:1px; line-height:1px;">&nbsp;</td>
+              
+              <!-- Card 4 -->
+              <td class="stack-cell" width="260" valign="top" style="padding-bottom:16px;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="bg-white" style="background-color:#FFFFFF; border-radius:14px;">
+                  <tr>
+                    <td class="card-pad" style="padding:24px;">
+                      <!-- NEW FLAT IMAGE BLOCK -->
+                      <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                        <td width="48" height="48" align="center" valign="middle">
+                          <img src="https://img.mailinblue.com/11929687/images/content_library/original/6a868d68e5f747179058db65.png" width="48" height="48" alt="Insights & Reporting" style="display:block; border:0;">
+                        </td>
+                      </tr></table>
+                      <p style="margin:16px 0 6px 0; font-family:Arial,Helvetica,sans-serif; font-size:16px; font-weight:700; color:#12213A;">Insights &amp; Reporting</p>
+                      <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:20px; color:#5B667A;">Live dashboards and a built-in BI/AI assistant that turns raw data into decisions.</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <!-- ============ MID-PAGE CTA BANNER ============ -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="bg-tint" style="background-color:#EAF1FF;">
+      <tr>
+        <td class="pad-mobile" align="center" style="padding:36px 48px; text-align:center;">
+          <h2 class="h2" style="margin:0 0 8px 0; font-family:Arial,Helvetica,sans-serif; font-size:20px; line-height:26px; font-weight:700; color:#12213A;">See it work with your own numbers</h2>
+          <p style="margin:0 0 22px 0; font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:21px; color:#3A4256;">Most demos take 30 minutes and run on your real data — not a generic slideshow.</p>
+          <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr>
+              <td align="center" style="border-radius:8px; background-color:#2F6FED;">
+                <!--[if mso]>
+                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://www.maxisoft.com.my/demo?utm_source=email&utm_medium=eflyer&utm_campaign=erp2026&utm_content=mid_cta" style="height:46px;v-text-anchor:middle;width:240px;" arcsize="14%" stroke="f" fillcolor="#2F6FED">
+                <w:anchorlock/>
+                <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:15px;font-weight:bold;">See Your Data Live &rarr;</center>
+                </v:roundrect>
+                <![endif]-->
+                <!--[if !mso]><!-->
+                <a href="https://www.maxisoft.com.my/demo?utm_source=email&utm_medium=eflyer&utm_campaign=erp2026&utm_content=mid_cta" target="_blank" class="btn-primary btn-mobile" style="display:inline-block; padding:13px 28px; font-family:Arial,Helvetica,sans-serif; font-size:15px; font-weight:700; color:#FFFFFF; text-decoration:none; border-radius:8px;">See Your Data Live &rarr;</a>
+                <!--<![endif]-->
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <!-- ============ WHY CHOOSE ============ -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="bg-white" style="background-color:#FFFFFF;">
+      <tr>
+        <td class="pad-mobile" align="center" style="padding:44px 48px 8px 48px;">
+          <h2 class="h2" style="margin:0 0 24px 0; font-family:Arial,Helvetica,sans-serif; font-size:22px; line-height:28px; font-weight:700; color:#12213A; text-align:center;">Why growing businesses choose Maxisoft</h2>
+          
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tr class="stack">
+              <td class="stack-cell" width="240" valign="top" style="padding-bottom:14px;">
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td valign="top" style="font-size:15px; color:#2F6FED; padding-right:10px; line-height:22px;">&#10003;</td>
+                  <td valign="top" style="font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:22px; color:#3A4256;">Real-time visibility across every department</td>
+                </tr></table>
+              </td>
+              <td class="hide-mobile" width="24" style="font-size:1px; line-height:1px;">&nbsp;</td>
+              <td class="stack-cell" width="240" valign="top" style="padding-bottom:14px;">
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td valign="top" style="font-size:15px; color:#2F6FED; padding-right:10px; line-height:22px;">&#10003;</td>
+                  <td valign="top" style="font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:22px; color:#3A4256;">Fewer manual errors, less double entry</td>
+                </tr></table>
+              </td>
+            </tr>
+            <tr class="stack">
+              <td class="stack-cell" width="240" valign="top" style="padding-bottom:14px;">
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td valign="top" style="font-size:15px; color:#2F6FED; padding-right:10px; line-height:22px;">&#10003;</td>
+                  <td valign="top" style="font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:22px; color:#3A4256;">Cloud-based, secure access from anywhere</td>
+                </tr></table>
+              </td>
+              <td class="hide-mobile" width="24" style="font-size:1px; line-height:1px;">&nbsp;</td>
+              <td class="stack-cell" width="240" valign="top" style="padding-bottom:14px;">
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td valign="top" style="font-size:15px; color:#2F6FED; padding-right:10px; line-height:22px;">&#10003;</td>
+                  <td valign="top" style="font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:22px; color:#3A4256;">Customisable to how your business runs</td>
+                </tr></table>
+              </td>
+            </tr>
+            <tr class="stack">
+              <td class="stack-cell" width="240" valign="top" style="padding-bottom:14px;">
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td valign="top" style="font-size:15px; color:#2F6FED; padding-right:10px; line-height:22px;">&#10003;</td>
+                  <td valign="top" style="font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:22px; color:#3A4256;">Scales with you as your business grows</td>
+                </tr></table>
+              </td>
+              <td class="hide-mobile" width="24" style="font-size:1px; line-height:1px;">&nbsp;</td>
+              <td class="stack-cell" width="240" valign="top" style="padding-bottom:14px;">
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0"><tr>
+                  <td valign="top" style="font-size:15px; color:#2F6FED; padding-right:10px; line-height:22px;">&#10003;</td>
+                  <td valign="top" style="font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:22px; color:#3A4256;">A long-term local support partner</td>
+                </tr></table>
+              </td>
+            </tr>
+          </table>
+
+        </td>
+      </tr>
+    </table>
+
+    <!-- ============ TESTIMONIAL / RESULT ============ -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="bg-white" style="background-color:#FFFFFF;">
+      <tr>
+        <td class="pad-mobile" style="padding:16px 48px 44px 48px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="bg-light" style="background-color:#F6F8FC; border-radius:14px;">
+            <tr>
+              <td style="padding:28px 28px;">
+                <p style="margin:0 0 16px 0; font-family:Georgia,serif; font-style:italic; font-size:16px; line-height:24px; color:#12213A;">&ldquo;[Insert a real, specific result here — e.g. "We cut our month-end closing from 10 days to 3."]&rdquo;</p>
+                <table role="presentation" cellpadding="0" cellspacing="0" border="0">
+                  <tr>
+                    <td width="38" height="38" align="center" valign="middle" style="background-color:#2F6FED; border-radius:19px; font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:700; color:#FFFFFF;">XX</td>
+                    <td style="padding-left:10px;">
+                      <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:13px; font-weight:700; color:#12213A;">[Client Name]</p>
+                      <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#8891A3;">[Title], [Company Name]</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <!-- ============ CONTACT / CONVERSION BLOCK ============ -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" class="bg-navy" style="background-color:#12213A; border-radius:0 0 16px 16px;">
+      <tr>
+        <td class="pad-mobile" align="center" style="padding:44px 48px; text-align:center;">
+          <h2 class="h2" style="margin:0 0 10px 0; font-family:Arial,Helvetica,sans-serif; font-size:22px; line-height:28px; font-weight:700; color:#FFFFFF;">Ready to see it live{% if contact.FIRSTNAME %}, {{ contact.FIRSTNAME }}{% endif %}?</h2>
+          <p style="margin:0 0 28px 0; font-family:Arial,Helvetica,sans-serif; font-size:15px; line-height:22px; color:#AEB8CC;">Free consultation &amp; ERP demo — no cost, no obligation.</p>
+
+          <!-- Email CTA -->
+          <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin-bottom:12px;">
+            <tr>
+              <td align="center" style="border-radius:8px; background-color:#2F6FED;">
+                <!--[if mso]>
+                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="mailto:enquiry@maxisoft.com.my" style="height:46px;v-text-anchor:middle;width:200px;" arcsize="18%" stroke="f" fillcolor="#2F6FED">
+                <w:anchorlock/>
+                <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:15px;font-weight:bold;">&#9993; Email Us</center>
+                </v:roundrect>
+                <![endif]-->
+                <!--[if !mso]><!-->
+                <a href="mailto:enquiry@maxisoft.com.my?subject=Free%20ERP%20Consultation%20Request&body=Hi%20Maxisoft%20team%2C%0A%0AI%27d%20like%20to%20book%20a%20free%20consultation%20and%20demo%20for%20our%20business.%0A%0ACompany%20name%3A%20%0AIndustry%3A%20%0ABest%20time%20to%20call%3A%20%0A%0AThanks!&utm_source=email&utm_medium=eflyer&utm_campaign=erp2026&utm_content=email_cta" target="_blank" class="btn-primary btn-mobile" style="display:inline-block; padding:14px 30px; font-family:Arial,Helvetica,sans-serif; font-size:15px; font-weight:700; color:#FFFFFF; text-decoration:none; border-radius:8px;">&#9993; Email Us</a>
+                <!--<![endif]-->
+              </td>
+            </tr>
+          </table>
+
+          <!-- WhatsApp CTA -->
+          <table role="presentation" cellpadding="0" cellspacing="0" border="0" align="center" style="margin-bottom:32px;">
+            <tr>
+              <td align="center" style="border-radius:8px; background-color:#25D366;">
+                <!--[if mso]>
+                <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://wa.me/60123269055" style="height:46px;v-text-anchor:middle;width:220px;" arcsize="18%" stroke="f" fillcolor="#25D366">
+                <w:anchorlock/>
+                <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:15px;font-weight:bold;">&#128172; Chat on WhatsApp</center>
+                </v:roundrect>
+                <![endif]-->
+                <!--[if !mso]><!-->
+                <a href="https://wa.me/60123269055?text=Hi%20Maxisoft%2C%20I%27m%20interested%20in%20a%20free%20ERP%20demo%20for%20my%20business.&utm_source=email&utm_medium=eflyer&utm_campaign=erp2026&utm_content=whatsapp_cta" target="_blank" class="btn-whatsapp btn-mobile" style="display:inline-block; padding:14px 30px; font-family:Arial,Helvetica,sans-serif; font-size:15px; font-weight:700; color:#FFFFFF; text-decoration:none; border-radius:8px;">&#128172; Chat on WhatsApp</a>
+                <!--<![endif]-->
+              </td>
+            </tr>
+          </table>
+
+          <!-- Consultant list -->
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top:1px solid #223252;">
+            <tr>
+              <td style="padding:24px 0 0 0;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" align="center">
+                  <tr class="stack">
+                    <td class="stack-cell" width="168" align="center" valign="top" style="padding:8px 8px 16px 8px; text-align:center;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td height="40" valign="top" align="center" style="height:40px;">
+                            <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:20px; font-weight:700; color:#FFFFFF;">Elise Beh</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td valign="top" align="center">
+                            <p style="margin:0 0 8px 0; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#8891A3;">012-326 9055</p>
+                            <a href="https://wa.me/60123269055?text=Hi%20Elise%2C%20I%27m%20interested%20in%20a%20free%20ERP%20demo.&utm_source=email&utm_medium=eflyer&utm_campaign=erp2026&utm_content=whatsapp_elise" style="font-family:Arial,Helvetica,sans-serif; font-size:12px; font-weight:700; color:#5BE38D;">WhatsApp &rarr;</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td class="stack-cell" width="168" align="center" valign="top" style="padding:8px 8px 16px 8px; text-align:center;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td height="40" valign="top" align="center" style="height:40px;">
+                            <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:20px; font-weight:700; color:#FFFFFF;">Nickson Chong</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td valign="top" align="center">
+                            <p style="margin:0 0 8px 0; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#8891A3;">017-287 9903</p>
+                            <a href="https://wa.me/60172879903?text=Hi%20Nickson%2C%20I%27m%20interested%20in%20a%20free%20ERP%20demo.&utm_source=email&utm_medium=eflyer&utm_campaign=erp2026&utm_content=whatsapp_nickson" style="font-family:Arial,Helvetica,sans-serif; font-size:12px; font-weight:700; color:#5BE38D;">WhatsApp &rarr;</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td class="stack-cell" width="168" align="center" valign="top" style="padding:8px 8px 16px 8px; text-align:center;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td height="40" valign="top" align="center" style="height:40px;">
+                            <p style="margin:0; font-family:Arial,Helvetica,sans-serif; font-size:14px; line-height:20px; font-weight:700; color:#FFFFFF;">Alex Chong</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td valign="top" align="center">
+                            <p style="margin:0 0 8px 0; font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#8891A3;">012-287 1011</p>
+                            <a href="https://wa.me/60122871011?text=Hi%20Alex%2C%20I%27m%20interested%20in%20a%20free%20ERP%20demo.&utm_source=email&utm_medium=eflyer&utm_campaign=erp2026&utm_content=whatsapp_alex" style="font-family:Arial,Helvetica,sans-serif; font-size:12px; font-weight:700; color:#5BE38D;">WhatsApp &rarr;</a>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+
+        </td>
+      </tr>
+    </table>
+
+    <!-- ============ FOOTER ============ -->
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+      <tr>
+        <td align="center" style="padding:28px 32px; text-align:center;">
+          <p style="margin:0 0 6px 0; font-family:Arial,Helvetica,sans-serif; font-size:12px; line-height:18px; color:#9AA3B5;">
+            <a href="https://www.maxisoft.com.my" target="_blank" style="color:#5B667A; font-weight:700; text-decoration:none;">www.maxisoft.com.my</a>
+          </p>
+          <p style="margin:0 0 6px 0; font-family:Arial,Helvetica,sans-serif; font-size:11px; line-height:17px; color:#9AA3B5;">Maxisoft (M) Sdn Bhd (BRN: 200101000003)</p>
+          <p style="margin:0 0 14px 0; font-family:Arial,Helvetica,sans-serif; font-size:11px; line-height:17px; color:#9AA3B5;">No 31-1, Jalan Rimbunan Raya 1, Laman Rimbunan, Kepong, 52100 Kuala Lumpur, Malaysia</p>
+          <p style="margin:0 0 6px 0; font-family:Arial,Helvetica,sans-serif; font-size:11px; line-height:17px; color:#B4BBC9;">
+            This email was sent to {{ contact.EMAIL }} as part of Maxisoft's business outreach to companies that may benefit from our ERP platform. Not relevant to you? <a href="{{ unsubscribe }}" style="color:#9AA3B5; text-decoration:underline;">Unsubscribe here</a> — no hard feelings.
+          </p>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+
+  <!--[if mso]>
+  </td></tr></table>
+  <![endif]-->
+  </center>
+</body>
+</html>
